@@ -16,6 +16,7 @@
 		5B7258BB1DABE90D005BC34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7258B91DABE90D005BC34A /* LaunchScreen.storyboard */; };
 		5B7258C61DABE90D005BC34A /* VXBorrowedTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258C51DABE90D005BC34A /* VXBorrowedTimeTests.m */; };
 		5B7258D11DABE90D005BC34A /* VXBorrowedTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258D01DABE90D005BC34A /* VXBorrowedTimeUITests.m */; };
+		5B7258E01DABF02C005BC34A /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258DF1DABF02C005BC34A /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B7258CC1DABE90D005BC34A /* VXBorrowedTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VXBorrowedTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7258D01DABE90D005BC34A /* VXBorrowedTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXBorrowedTimeUITests.m; sourceTree = "<group>"; };
 		5B7258D21DABE90D005BC34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7258DE1DABF02C005BC34A /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		5B7258DF1DABF02C005BC34A /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				5B7258AC1DABE90D005BC34A /* AppDelegate.m */,
 				5B7258AE1DABE90D005BC34A /* ViewController.h */,
 				5B7258AF1DABE90D005BC34A /* ViewController.m */,
+				5B7258DE1DABF02C005BC34A /* UncaughtExceptionHandler.h */,
+				5B7258DF1DABF02C005BC34A /* UncaughtExceptionHandler.m */,
 				5B7258B11DABE90D005BC34A /* Main.storyboard */,
 				5B7258B71DABE90D005BC34A /* Assets.xcassets */,
 				5B7258B91DABE90D005BC34A /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7258B61DABE90D005BC34A /* VXBorrowedTime.xcdatamodeld in Sources */,
+				5B7258E01DABF02C005BC34A /* UncaughtExceptionHandler.m in Sources */,
 				5B7258B01DABE90D005BC34A /* ViewController.m in Sources */,
 				5B7258AD1DABE90D005BC34A /* AppDelegate.m in Sources */,
 				5B7258AA1DABE90D005BC34A /* main.m in Sources */,
