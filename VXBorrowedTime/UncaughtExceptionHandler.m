@@ -51,7 +51,7 @@ const NSInteger UncaughtExceptionHandlerReportAddressCount = 5;
     {
         dismissed = YES;
     }else if (anIndex==1) {
-        NSLog(@"ssssssss");
+        NSLog(@"heheheheheheh");
     }
 }
 
