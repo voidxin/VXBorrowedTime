@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  VXAppDelegate.h
 //  VXBorrowedTime
 //
 //  Created by voidxin on 16/10/10.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface VXAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

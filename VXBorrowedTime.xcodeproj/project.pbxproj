@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B7258AA1DABE90D005BC34A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258A91DABE90D005BC34A /* main.m */; };
-		5B7258AD1DABE90D005BC34A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258AC1DABE90D005BC34A /* AppDelegate.m */; };
+		5B7258AD1DABE90D005BC34A /* VXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258AC1DABE90D005BC34A /* VXAppDelegate.m */; };
 		5B7258B01DABE90D005BC34A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258AF1DABE90D005BC34A /* ViewController.m */; };
 		5B7258B31DABE90D005BC34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7258B11DABE90D005BC34A /* Main.storyboard */; };
 		5B7258B61DABE90D005BC34A /* VXBorrowedTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B7258B41DABE90D005BC34A /* VXBorrowedTime.xcdatamodeld */; };
@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		5B7258A51DABE90D005BC34A /* VXBorrowedTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VXBorrowedTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7258A91DABE90D005BC34A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B7258AB1DABE90D005BC34A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5B7258AC1DABE90D005BC34A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B7258AB1DABE90D005BC34A /* VXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VXAppDelegate.h; sourceTree = "<group>"; };
+		5B7258AC1DABE90D005BC34A /* VXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXAppDelegate.m; sourceTree = "<group>"; };
 		5B7258AE1DABE90D005BC34A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B7258AF1DABE90D005BC34A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B7258B21DABE90D005BC34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 		5B7258A71DABE90D005BC34A /* VXBorrowedTime */ = {
 			isa = PBXGroup;
 			children = (
-				5B7258AB1DABE90D005BC34A /* AppDelegate.h */,
-				5B7258AC1DABE90D005BC34A /* AppDelegate.m */,
+				5B7258AB1DABE90D005BC34A /* VXAppDelegate.h */,
+				5B7258AC1DABE90D005BC34A /* VXAppDelegate.m */,
 				5B7258AE1DABE90D005BC34A /* ViewController.h */,
 				5B7258AF1DABE90D005BC34A /* ViewController.m */,
 				5B7258DE1DABF02C005BC34A /* UncaughtExceptionHandler.h */,
@@ -281,7 +281,7 @@
 				5B7258B61DABE90D005BC34A /* VXBorrowedTime.xcdatamodeld in Sources */,
 				5B7258E01DABF02C005BC34A /* UncaughtExceptionHandler.m in Sources */,
 				5B7258B01DABE90D005BC34A /* ViewController.m in Sources */,
-				5B7258AD1DABE90D005BC34A /* AppDelegate.m in Sources */,
+				5B7258AD1DABE90D005BC34A /* VXAppDelegate.m in Sources */,
 				5B7258AA1DABE90D005BC34A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +506,7 @@
 				5B7258D71DABE90D005BC34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7258D81DABE90D005BC34A /* Build configuration list for PBXNativeTarget "VXBorrowedTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +515,7 @@
 				5B7258DA1DABE90D005BC34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7258DB1DABE90D005BC34A /* Build configuration list for PBXNativeTarget "VXBorrowedTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +524,7 @@
 				5B7258DD1DABE90D005BC34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

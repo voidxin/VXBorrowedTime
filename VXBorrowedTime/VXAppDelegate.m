@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  VXAppDelegate.m
 //  VXBorrowedTime
 //
 //  Created by voidxin on 16/10/10.
 //  Copyright © 2016年 voidxin. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VXAppDelegate.h"
 #import "UncaughtExceptionHandler.h"
-@interface AppDelegate ()
+@interface VXAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation VXAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
