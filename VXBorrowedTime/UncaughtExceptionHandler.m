@@ -64,10 +64,7 @@ const NSInteger UncaughtExceptionHandlerReportAddressCount = 5;
 {
     [self validateAndSaveCriticalApplicationData];
     
-    UIAlertView *alert =
-    [[[UIAlertView alloc]
-      initWithTitle:NSLocalizedString(@"抱歉，程序出现了异常", nil)
-      message:[NSString stringWithFormat:NSLocalizedString(
+    UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"抱歉，程序出现了异常", nil)           message:[NSString stringWithFormat:NSLocalizedString(
                                                            @"如果点击继续，程序有可能会出现其他的问题，建议您还是点击退出按钮并重新打开\n\n"
                                                            @"异常原因如下:\n%@\n%@", nil),
                [exception reason],

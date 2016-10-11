@@ -76,7 +76,7 @@
     NSLog(@"this is crash : %@",self.array[2]);
 }
 - (void)conBtnAction{
-    NSLog(@"this app number run");
+    NSLog(@"this app continue run");
 }
 
 @end
